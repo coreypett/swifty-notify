@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol SwiftyNotificationBuilderProtocol {
+public protocol SwiftyNotificationBuilderProtocol {
     func dispachOn(_ queue: DispatchQueue) -> SwiftyNotificationBuilderProtocol
     func onEvent(_ event: @escaping ValueClosure<Notification>)
 }

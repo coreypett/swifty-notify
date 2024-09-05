@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class SwiftyNotify: NSObject {
+public final class SwiftyNotifier: NSObject {
     private var notifications: [NotifyWhen]
 
     override init() {

@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias Closure<Value, Result> = (Value) -> Result
-typealias ValueClosure<Value> = Closure<Value, Void>
-typealias ResultClosure<Result> = () -> Result
-typealias VoidClosure = ResultClosure<Void>
+public typealias Closure<Value, Result> = (Value) -> Result
+public typealias ValueClosure<Value> = Closure<Value, Void>
+public typealias ResultClosure<Result> = () -> Result
+public typealias VoidClosure = ResultClosure<Void>
